@@ -1,21 +1,7 @@
 
-type User {
-  id: ID!
-  playlists: [Playlist]
-}
 
-type Song {
-  id: ID!
-}
-
-type Playlist {
-  id: ID!
-  songs: [Song]
-}
 
 type Query {
-  users: [User!]!
-  songs(first: Int): [Song!]!
-  playlists: [Playlist!]!
+
 }
 

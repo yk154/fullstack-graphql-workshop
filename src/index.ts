@@ -1,11 +1,16 @@
 import { GraphQLServer } from 'graphql-yoga'
+import songs from "./data/songs"
 
 const resolvers = {
   Query: {
     songs(parent, args, ctx, info) {
+      if(args.first) {
+        return songs.slice(0, args.first)
+      }
+      return songs;
     },
-    playlists(parent, args, ctx, info) {
-    }
+ 
+
   }
 }
 

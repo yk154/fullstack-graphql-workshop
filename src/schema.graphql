@@ -1,7 +1,22 @@
+type User {
+  id: Int
+  name: String
+  email: String
+}
 
+type Song {
+  id: String
+  name: String
+}
 
+type Playlist {
+  id: String
+  name: String
+  followers: [User]
+  songs: [Song]
+}
 
 type Query {
-
+  songs(first: Int): [Song!]!
 }
 

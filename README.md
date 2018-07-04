@@ -2,6 +2,40 @@
 
 <br />
 
+# Getting started
+
+1. Clone the project
+```sh
+git clone https://github.com/iExperience/fullstack-graphql-workshop.git
+```
+
+2. Install dependencies with `Yarn` (optional, if you do not use this use `npm`)
+
+*NOTE: IF YOU DO NOT HAVE YARN, INSTALL IT WITH THIS COMMAND: `npm install -g yarn`*
+
+```sh
+yarn install
+```
+OR
+```sh
+npm install
+```
+
+3. Run the server which will also open up the playground:
+
+```sh
+yarn dev
+```
+
+OR
+
+```sh
+npm run dev
+```
+
+4. Start Coding!
+
+
 ## Create some types!
 
 We're going to be creating a simple graphql server for me to retrieve songs and playlists. Here is what I am expecting:

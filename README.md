@@ -9,9 +9,9 @@
 git clone https://github.com/iExperience/fullstack-graphql-workshop.git
 ```
 
-2. Install dependencies with `Yarn` (optional, if you do not use this use `npm`)
+2. Install dependencies with `Yarn`
 
-*NOTE: IF YOU DO NOT HAVE YARN, INSTALL IT WITH THIS COMMAND: `npm install -g yarn`*
+*NOTE: IF YOU DO NOT HAVE YARN, INSTALL IT WITH THIS COMMAND: `npm install -g yarn`*  (optional, if you do not use this use `npm`)
 
 ```sh
 yarn install

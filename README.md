@@ -24,6 +24,7 @@ npm install
 3. Run the server which will also open up the playground:
 
 ```sh
+cd fullstack-graphql-workshop
 yarn dev
 ```
 

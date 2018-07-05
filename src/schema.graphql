@@ -16,7 +16,17 @@ type Playlist {
   songs: [Song]
 }
 
+type Pokemon {
+  name: String
+  id: Int
+  base_experience: Int
+}
+
 type Query {
-  songs(first: Int): [Song!]!
+  songs(first: Int, last: Int): [Song!]!
+	playlists(first: Int, last: Int): [Playlist!]!
+	users(first: Int, last: Int, email: String): [User!]!
+  pokemon(name: String): Pokemon!
+  randomSongs: Song!
 }
 

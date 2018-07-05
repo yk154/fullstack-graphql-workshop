@@ -49,9 +49,8 @@ const resolvers = {
 
     pokemon(parent, args, ctx, info){
       if(args.name){
-        fetch('https://pokeapi.co/api/v2/pokemon/squirtle')
+        return fetch('https://pokeapi.co/api/v2/pokemon/squirtle')
         .then((raw) => raw.json())
-        .then(console.log)
       }
     },
 
